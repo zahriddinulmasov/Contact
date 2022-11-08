@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Contact</title>
+  </head>
+  <body class="bg-danger bg-gradient bg-opacity-25">
+    <div class="container">
+      <h1 class="m-0 text-center fw-bolder text-warning">Contact book</h1>
+
+      <div class="hero my-3 d-flex justify-content-center">
+        <div class="hero__left">
+
+          <form class="hero__form">
+            <h3>New contact form</h3>
+
+            <div class="d-flex my-3 flex-column">
+              <label class="m-0 mb-1 ps-2" for="textname">Username</label>
+              <input class="hero__input-name form-control" type="text" id="textname" placeholder="Name" required />
+            </div>
+
+            <div class="d-flex my-3 flex-column">
+              <label class="m-0 mb-1 ps-2" for="textsurname">Who to the user!</label>
+              <input class="hero__input-surname form-control" type="text" id="textsurname" placeholder="Relationship" required />
+            </div>
+
+            <div class="d-flex my-3 flex-column">
+              <label class="m-0 mb-1 ps-2" for="number">User number</label>
+              <input class="hero__input-number form-control" type="number" id="number" placeholder="Phone" required />
+            </div>
+
+            <button class="hero__btn btn btn-outline-primary">Add contact</button>
+          </form>
+        </div>
+
+        <div class="hero__right px-3 ms-5">
+          <h3 class="m-0 mb-4">Contacts</h3>
+
+          <ul class="hero__list bg-light rounded bg-gradient"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
